@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Kunst von [Name]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>[Name]</h1>
+        <nav>
+            <button id="menuToggle" aria-label="Menü öffnen">&#9776;</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ich.html">ich</a></li>
+                <li><a href="selbst.html">selbst</a></li>
+                <li><a href="bei-mir.html">bei mir ...</a></li>
+                <li><a href="in-aus-mir.html">in/aus mir ...</a></li>
+                <li><a href="mit-mir.html">mit mir</a></li>
+                <li><a href="objektkunst.html">Objektkunst</a></li>
+                <li><a href="spray-art.html">Spray Art</a></li>
+                <li><a href="artenvielfalt.html">Artenvielfalt</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>Hier können Sie mich kontaktieren:</p>
+
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Senden</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [Name]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
